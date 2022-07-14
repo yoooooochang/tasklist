@@ -1,0 +1,21 @@
+body{
+margin: 30px
+color: #283655;
+}
+
+input{
+border: 1px solid;
+}
+
+.hidden{
+display: none;
+}
+
+.task_form form{
+display: grid;
+grid-template-columns: 100px 1fr;
+}
+
+.task_form input[type="date"],select{
+width: 150px;
+}
